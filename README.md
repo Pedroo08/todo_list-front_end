@@ -25,6 +25,13 @@ Essa é uma aplicação frontend que diz respeito a uma lista de tarefa ineterat
  - Atualizar ua tarefa(Pach) - /task/taskid
  - Excluir uma tarefa (Delete) -  /task/taskid
 
+## Como executar o projeto 
+- Clone o repostório: git clone https://github.com/Pedroo08/todo_list-front_end
+- Navegue até o repositório: cd seu-repositorio
+- Instale as dependências : npm install
+- Inicie o servidor de desenvolvimento: npm start
+- Acesse o projeto no navegador, o projeto estará em um endereço local: http://localhost:3000/
+
 ## 🔎 Status do Projeto
 ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
 
