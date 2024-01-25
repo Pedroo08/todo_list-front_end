@@ -10,22 +10,22 @@
 
 
 ## 📖 Descrição:
-Essa é uma aplicação frontend que diz respeito a uma lista de tarefa ineterativa feita em Reactjs. A aplicação consome um backend usando o Axios, faz autenticação usando a api do firebase e o deploy foi feito no firebase.
+Esta é uma aplicação frontend que se refere a uma lista de tarefas interativas desenvolvida em ReactJS. A aplicação consome um backend utilizando o Axios, realiza autenticação por meio da API do Firebase, e o deploy foi efetuado no Firebase.
 ## 🛠️ Funcionalidades
 
 - Criar as tarefas 
 - Excluir as tarefas
 - Marcar a tarefa como concluída
-- Fazer login e Cadastro (persistência de dados)
+- Realizar login e cadastro (persistência de dados)
 
-## Rotas
+## 🗺️ Rotas
  - Pegar todas tarefas(Get) -  /task
  - Pegar todas as tarefas do usúario(Get) - /task/userid
  - Criar uma tarefa(Post) - /task
  - Atualizar ua tarefa(Pach) - /task/taskid
  - Excluir uma tarefa (Delete) -  /task/taskid
 
-## Como executar o projeto 
+## 🚀 Como executar o projeto 
 - Clone o repostório: git clone https://github.com/Pedroo08/todo_list-front_end
 - Navegue até o repositório: cd seu-repositorio
 - Instale as dependências : npm install
