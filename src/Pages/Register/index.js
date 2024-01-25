@@ -19,12 +19,13 @@ function Register (){
     await createUserWithEmailAndPassword(auth, email, senha)
     .then((userCredential) => {
       localStorage.setItem("userid",userCredential.user.uid)
-      console.log(userCredential)
+      //console.log(userCredential)
       navegate('/tasks')
      })
     .catch((error) => {
-      console.log(error);
-      alert(error.mensage)
+      console.log(error.message);
+      if(error.code ==  "auth/email-already-in-use")
+      alert('O email digitado já estar em uso')
      });
 
   }

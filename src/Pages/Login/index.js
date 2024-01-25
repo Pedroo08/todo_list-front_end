@@ -10,7 +10,7 @@ function Login(){
 
     const handleSubmit =  async (email,senha,auth) =>{
         if(!email|| !senha){
-            alert("Por favor preencha os campos para continuar")
+            alert("Preencha os campos para continuar")
 
         }else{
             await signInWithEmailAndPassword(auth, email, senha)

@@ -48,7 +48,7 @@ function UserTasks() {
 
       return;
     }
-    console.log(content);
+    //console.log(content);
     CreateTask();
 
     setContent("");
